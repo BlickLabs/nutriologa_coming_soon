@@ -40,7 +40,7 @@ $cover_layer_opacity = 0.4
 $background_img = url("../img/mainbg.jpg")
 $about_background_img = url("../img/leftbg.jpg")
 $font = "Poppins", sans-serif
-  
+
 background-opacity($color, $opacity = 0.6)
   background $color
   /* The Fallback */
@@ -50,7 +50,7 @@ clear()
   overflow hidden
   clear both
   float none
-  
+
 .loader-container
   background rgba($background_color, 0.8)
   height 100%
@@ -225,9 +225,9 @@ p
 
 .preloader
   background $background_color
-  
+
 .logo img
-  height 80px
+  height 100px
 
 p.tagline
   font-size 30px
@@ -248,7 +248,7 @@ p.tagline
     display inline-block
     padding-top 28px
     width auto
-    
+
     span.days
       color white !important
       display block
@@ -258,7 +258,7 @@ p.tagline
       color white
       padding 0
       text-align center
-      
+
     span.remain-days
       color white
       font-size 14px
@@ -268,10 +268,10 @@ p.tagline
 
   .counter-content
     padding-top 35%
-    
+
     p.tagline
       color white
-      
+
   #countdown span,
   #countdown li.seperator
     @extend h1
@@ -620,7 +620,7 @@ rotate()
     margin-top 25px
     padding 0 10px
     width auto
-    
+
     span
       float none
 
@@ -810,7 +810,7 @@ rotate()
   bottom 25px
   left 15px
   position absolute
-  
+
   li
     color $primary_color !important
 
@@ -1121,7 +1121,7 @@ border-widthc()
   h3
     font-size 24px
 
-  p.tagline, 
+  p.tagline,
   .address-detail a.tagline
     font-size 20px
     line-height 35px
@@ -1183,7 +1183,7 @@ border-widthc()
   .notify-wrap
     .notify-input-box
       font-size 12px
-  
+
     .form-control
       &::-webkit-input-placeholder
         font-size 12px
@@ -1217,7 +1217,7 @@ border-widthc()
     &.side-left
       padding-top 80px
       padding-bottom 47px
-      
+
       .copyright
         margin-top 20px
 
@@ -1297,7 +1297,7 @@ border-widthc()
     -webkit-transform translateX(0) scale(1)
     -ms-transform translateX(0) scale(1)
     transform translateX(0) scale(1)
- 
+
   .open-left .side-left,
   .open-right .side-right
     z-index 200
@@ -1319,10 +1319,10 @@ border-widthc()
     -ms-transform translateX(0%)
     transform translateX(0%)
 
-  .reset-layout .page, 
-  .splitlayout.open-right .page-left, 
+  .reset-layout .page,
+  .splitlayout.open-right .page-left,
   .splitlayout.open-left .page-right,
-  .splitlayout.close-right .page-left, 
+  .splitlayout.close-right .page-left,
   .splitlayout.close-left .page-right
     position static
 
